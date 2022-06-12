@@ -1,4 +1,4 @@
-Groupoid Infinity 8086 HACKING GUIDE
+Groupoid Infinity 8086 HACKING GUIDE Opcode Listing
 
 v      0: count=1; 1: count=CL;
 d      0: from reg; 1: to reg;
@@ -151,10 +151,3 @@ JMP    | 1111 1111 | mod 100 r/m
 JMP    | 1111 1111 | mod 101 r/m
 PUSH   | 1111 1111 | mod 110 r/m
 
-[BX]+[SI] - source
-[BP]+[DI] - destination
-
-BX = &source_buffer
-SI = current_src_ptr
-BP = &destiation_buffer
-DI = current_dst_ptr

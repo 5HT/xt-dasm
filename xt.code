@@ -1,4 +1,4 @@
-Groupoid Infinity 8086 HACKING GUIDE
+Groupoid Infinity 8086 HACKING GUIDE Working Order
 
 MOV    | 1000 10dw | mod reg r/m
 MOV    | 1100 011w | mod 000 r/m | data | data if w=1
